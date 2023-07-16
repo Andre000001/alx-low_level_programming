@@ -8,3 +8,8 @@ output_file="${c_file%.*}.s"
 
 # Use gcc to compile the C file and generate the assembly code in Intel syntax
 gcc -S -masm=intel "$c_file" -o "$output_file"
+
+# Run the script with the main.c file
+echo "export CFILE=main.c ; ./100-intel" > test.sh
+chmod +x test.sh
+./test.sh
