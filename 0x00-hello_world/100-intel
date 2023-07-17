@@ -1,7 +1,3 @@
 #!/bin/bash
 
-# Get the C file name from the environment variable
-CFILE=$CFILE
-
-# Generate the assembly code using gcc
-gcc -S -masm=intel "$CFILE" -o "${CFILE%.c}.s"
+CFILE=$CFILE; gcc -S -masm=intel "$CFILE" -o "${CFILE%.c}.s"
