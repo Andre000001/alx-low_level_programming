@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "export CFILE=0-main.c ; ./100-intel"
+echo "export CFILE=0-main.c ; gcc -S -masm=intel 0-main.c -o 0-main.s && ./a.out" > test.sh && ./test.sh
