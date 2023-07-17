@@ -1,2 +1,7 @@
 #!/bin/bash
-echo "export CFILE=0-main.c ; gcc -S -masm=intel 0-main.c -o 0-main.s && ./a.out" > test.sh && ./test.sh
+
+# Get the C file name from the environment variable
+CFILE=$CFILE
+
+# Generate the assembly code using gcc
+gcc -S -masm=intel "$CFILE" -o "${CFILE%.c}.s"
