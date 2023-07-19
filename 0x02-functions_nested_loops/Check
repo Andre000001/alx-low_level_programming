@@ -1,0 +1,27 @@
+de details
+
+You have access to the full output of the Checker - Use it with reason!
+
+File 1-alphabet.c is present
+
+Compile program
+
+main.c
+main.c: In function ‘main’:
+main.c:10:2: error: implicit declaration of function ‘print_alphabet’ [-Werror=implicit-function-declaration]
+   10 |  print_alphabet();
+      |  ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Only 2 _putchar
+
+ltrace allowed functions: write
+
+Correct output
+
+Your program returns a SUCCESS value
+
+Betty coding style
+
+Betty documentation style
+
+
