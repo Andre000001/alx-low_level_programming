@@ -2,12 +2,12 @@
 #define MAIN_H
 
 /**
- * add - Adds two integers
- * @num1: The first integer
- * @num2: The second integer
+ * print_to_98 - Prints all natural numbers from n to 98
+ * @n: Starting number
  *
- * Return: The sum of the two integers
+ * Description: Prints the numbers from n up to 98,
+ *              separated by a comma and a space.
  */
-int add(int num1, int num2);
+void print_to_98(int n);
 
 #endif /* MAIN_H */
