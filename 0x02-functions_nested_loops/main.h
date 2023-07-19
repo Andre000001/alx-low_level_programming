@@ -1,8 +1,9 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
-#include <stdio.h>
+#include <unistd.h>
 
-void jack_bauer(void);
+int _putchar(char c);
+void times_table(void);
 
-#endif /* _MAIN_H_ */
+#endif /* MAIN_H */
