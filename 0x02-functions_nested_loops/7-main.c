@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * main - Entry point
@@ -18,6 +19,10 @@ int main(void)
 	_putchar('\n');
 
 	r = print_last_digit(-1024);
+	_putchar('0' + r);
+	_putchar('\n');
+
+	r = print_last_digit(INT_MIN);
 	_putchar('0' + r);
 	_putchar('\n');
 
