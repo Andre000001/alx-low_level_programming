@@ -1,7 +1,8 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-int _putchar(char c);
-int print_last_digit(int n);
+#include <stdio.h>
 
-#endif /* MAIN_H */
+void jack_bauer(void);
+
+#endif /* _MAIN_H_ */
