@@ -1,5 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
 
 /**
  * add - Adds two integers
@@ -8,6 +7,7 @@
  *
  * Return: The sum of the two integers
  */
-int add(int num1, int num2);
-
-#endif /* MAIN_H */
+int add(int num1, int num2)
+{
+	return (num1 + num2);
+}
