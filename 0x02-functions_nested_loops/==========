@@ -1,0 +1,19 @@
+
+nacci.c:10: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:11: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:13: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:15: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:16: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:17: ERROR: code indent should use tabs where possible
+102-fibonacci.c:17: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:18: ERROR: code indent should use tabs where possible
+102-fibonacci.c:18: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:19: ERROR: code indent should use tabs where possible
+102-fibonacci.c:19: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:20: ERROR: code indent should use tabs where possible
+102-fibonacci.c:20: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:21: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:23: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:25: WARNING: please, no spaces at the start of a line
+102-fibonacci.c:25: ERROR: parentheses are required on a return statement
+total: 5 errors, 12 warnings, 26 lines checked
