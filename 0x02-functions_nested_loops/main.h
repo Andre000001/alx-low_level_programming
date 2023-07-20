@@ -3,12 +3,10 @@
 
 #include <stdio.h>
 
-/**
- * print_to_98 - Prints all natural numbers from n to 98.
- * @n: The starting number.
- *
- * Return: void.
- */
-void print_to_98(int n);
+/* Function prototype for the _putchar function */
+int _putchar(char c);
+
+/* Function prototype for the print_times_table function */
+void print_times_table(int n);
 
 #endif /* MAIN_H */
