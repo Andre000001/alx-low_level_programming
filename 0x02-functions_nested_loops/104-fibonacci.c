@@ -1,25 +1,44 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
- *
- * Return: 0 (Success)
+ * print_fibonacci - prints the first n Fibonacci numbers
+ * @n: the number of Fibonacci numbers to print
  */
-int main(void)
+void print_fibonacci(int n)
 {
-	int count, term1 = 1, term2 = 2, nextTerm;
+	int a = 1, b = 2, next;
 
-	printf("%d, %d", term1, term2);
-
-	for (count = 3; count <= 98; count++)
+	for (int i = 0; i < n; i++)
 	{
-		nextTerm = term1 + term2;
-		printf(", %d", nextTerm);
-		term1 = term2;
-		term2 = nextTerm;
+		if (i <= 1)
+		{
+			next = i + 1;
+		}
+		else
+		{
+			next = a + b;
+			a = b;
+			b = next;
+		}
+
+		printf("%d", next);
+
+		if (i < n - 1)
+		{
+			printf(", ");
+		}
 	}
 
 	printf("\n");
+}
 
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	print_fibonacci(98);
 	return (0);
 }
