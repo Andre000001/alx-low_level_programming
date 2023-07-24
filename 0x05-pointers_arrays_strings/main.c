@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - Entry point of the program.
@@ -8,11 +7,10 @@
  */
 int main(void)
 {
-    char s[10] = "My School";
+    char *str;
 
-    printf("%s\n", s);      /* Print the original string */
-    rev_string(s);          /* Call the function to reverse the string */
-    printf("%s\n", s);      /* Print the reversed string */
+    str = "0123456789";
+    puts2(str);
 
     return (0);
 }
