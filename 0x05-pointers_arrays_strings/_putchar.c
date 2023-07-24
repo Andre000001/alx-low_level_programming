@@ -1,15 +1,13 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * main - check the code
+ * _putchar - Writes a character to the standard output (stdout).
+ * @c: The character to be written.
  *
- * Return: Always 0.
+ * Return: On success, the character written is returned.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+int _putchar(char c)
 {
-    char *str;
-
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
+    return write(1, &c, 1);
 }
