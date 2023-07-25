@@ -3,23 +3,23 @@
 
 int main(void)
 {
-    int nb;
+    char *str1 = "Hello, world!";
+    char *str2 = "0123456789";
+    char *str3 = "I am testing _puts function.";
 
-    nb = _atoi("98");
-    printf("%d\n", nb);
-    nb = _atoi("-402");
-    printf("%d\n", nb);
-    nb = _atoi("          ------++++++-----+++++--98");
-    printf("%d\n", nb);
-    nb = _atoi("214748364");
-    printf("%d\n", nb);
-    nb = _atoi("0");
-    printf("%d\n", nb);
-    nb = _atoi("Suite 402");
-    printf("%d\n", nb);
-    nb = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
-    printf("%d\n", nb);
-    nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
-    printf("%d\n", nb);
+    // Test print_rev function
+    printf("Reversed string: ");
+    print_rev(str1);
+    printf("\n");
+
+    // Test puts2 function
+    printf("Every other character: ");
+    puts2(str2);
+    printf("\n");
+
+    // Test _puts function
+    printf("Using _puts: ");
+    _puts(str3);
+
     return (0);
 }
