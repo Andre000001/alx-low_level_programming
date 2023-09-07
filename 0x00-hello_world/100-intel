@@ -1,2 +1,19 @@
 #!/bin/bash
-echo "export CFILE=0-main.c ; ./100-intel" > test.sh && ./test.sh
+
+if [ -z "$CFILE" ]; then
+    exit 1
+fi
+
+if [ ! -f "$CFILE" ]; then
+    exit 1
+fi
+
+BASENAME=$(basename "$CFILE" .c)
+
+gcc -S -masm=intel "$CFILE" -o "${BASENAME}.s"
+
+if [ $? -eq 0 ]; then
+    echo "Assembly code generated and saved as ${BASENAME}.s"
+else
+    echo "Error: Failed to generate assembly code."
+fi
