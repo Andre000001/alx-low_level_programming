@@ -4,8 +4,8 @@
 /* Prototype for the _putchar function */
 int _putchar(char c);
 
-/* Prototype for the _isalpha function */
-int _isalpha(int c);
+/* Prototype for the _print_sign function */
+int print_sign(int n);
 
 /* You can add more function prototypes or declarations here if needed */
 
