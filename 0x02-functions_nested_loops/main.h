@@ -4,7 +4,9 @@
 /* Prototype for the _putchar function */
 int _putchar(char c);
 
-/* Prototype for print_alphabet_x10 function */
-void print_alphabet_x10(void);
+/* Prototype for the _islower function */
+int _islower(int c);
+
+/* You can add more function prototypes or declarations here if needed */
 
 #endif /* MAIN_H */
