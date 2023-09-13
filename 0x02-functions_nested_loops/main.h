@@ -1,14 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Function prototypes */
-int add(int a, int b);
-void print_hello(void);
+/* Function declarations */
+void someFunction(int param1, double param2);
+int anotherFunction(char ch);
 
-/* Global variables */
-extern int global_variable;
+/* Constants */
+#define MAX_VALUE 100
 
-/* Data structures */
+/* Data types */
 struct Point {
     int x;
     int y;
