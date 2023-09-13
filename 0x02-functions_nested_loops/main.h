@@ -4,8 +4,8 @@
 /* Prototype for the _putchar function */
 int _putchar(char c);
 
-/* Prototype for the print_last_digit function */
-int print_last_digit(int n);
+/* Prototype for the jack_bauer function */
+void jack_bauer(void);
 
 /* You can add more function prototypes or declarations here if needed */
 
