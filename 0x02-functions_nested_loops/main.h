@@ -2,8 +2,16 @@
 #define MAIN_H
 
 /* Function prototypes */
-void print_to_98(int n);
 int add(int a, int b);
-/* Add more function prototypes here as needed */
+void print_hello(void);
+
+/* Global variables */
+extern int global_variable;
+
+/* Data structures */
+struct Point {
+    int x;
+    int y;
+};
 
 #endif /* MAIN_H */
