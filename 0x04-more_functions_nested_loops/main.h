@@ -4,7 +4,7 @@
 /* Function prototype for _putchar */
 int _putchar(char c);
 
-/* Function prototype for more_numbers */
-void more_numbers(void);
+/* Function prototype for print_line */
+void print_line(int n);
 
 #endif /* MAIN_H */
