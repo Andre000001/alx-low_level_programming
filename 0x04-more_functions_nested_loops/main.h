@@ -4,7 +4,7 @@
 /* Function prototype for _putchar */
 int _putchar(char c);
 
-/* Function prototype for print_line */
-void print_line(int n);
+/* Function prototype for print_diagonal */
+void print_diagonal(int n);
 
 #endif /* MAIN_H */
