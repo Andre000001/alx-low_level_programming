@@ -1,12 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+/* Function declarations */
+void someFunction(int param1, double param2);
+int anotherFunction(char ch);
 
-/* Function prototype for the _putchar function */
-int _putchar(char c);
+/* Constants */
+#define MAX_VALUE 100
 
-/* Function prototype for the print_times_table function */
-void print_times_table(int n);
+/* Data types */
+struct Point {
+    int x;
+    int y;
+};
 
 #endif /* MAIN_H */
