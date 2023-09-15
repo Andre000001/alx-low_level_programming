@@ -1,8 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int convert_day(int month, int day);
-void print_remaining_days(int month, int day, int year);
+/* Function prototypes */
+int largest_number(int a, int b, int c);
+
+/* Macros */
+#define MAX_VALUE 100
+
+/* Global variables */
+extern int global_variable;
 
 #endif /* MAIN_H */
-
