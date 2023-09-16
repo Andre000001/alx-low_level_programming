@@ -1,10 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Function prototype for _putchar */
+/* Function prototypes */
 int _putchar(char c);
+void print_most_numbers(void);
 
-/* Function prototype for print_diagonal */
-void print_diagonal(int n);
+/* Other declarations go here */
 
 #endif /* MAIN_H */
