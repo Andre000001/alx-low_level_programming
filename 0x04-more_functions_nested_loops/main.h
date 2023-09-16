@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /* Function prototypes */
-int add(int a, int b);
-void print_message(char *message);
+int _putchar(char c);
+void print_number(int n);
 
 #endif /* MAIN_H */
