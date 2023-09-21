@@ -1,9 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h> /* Include necessary standard library headers */
-
-/* Function prototypes */
-void reverse_array(int *a, int n);
+/* Function prototype for string_toupper */
+char *string_toupper(char *str);
 
 #endif /* MAIN_H */
