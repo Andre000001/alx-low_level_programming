@@ -1,7 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Function prototype for string_toupper */
-char *string_toupper(char *str);
+#include <stdio.h>
+
+/* Function prototypes */
+int is_separator(char c);
+char *cap_string(char *str);
 
 #endif /* MAIN_H */
