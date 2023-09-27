@@ -2,9 +2,9 @@
 #define MAIN_H
 
 #include <stdio.h>  /* Include standard I/O library for printf function */
+#include <stddef.h> /* Include the header for NULL definition */
 
 /* Function prototypes */
-char *_memcpy(char *dest, char *src, unsigned int n);
-void simple_print_buffer(char *buffer, unsigned int size);
+char *_strchr(char *s, char c);
 
 #endif /* MAIN_H */
