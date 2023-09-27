@@ -1,10 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>  /* Include standard I/O library for printf function */
-#include <stddef.h> /* Include the header for NULL definition */
+#include <stdio.h> /* Include standard I/O library for printf function */
 
-/* Function prototypes */
-char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
 
 #endif /* MAIN_H */
